@@ -1,0 +1,24 @@
+{
+  "name": "@yuukajs/eslint-config",
+  "version": "0.0.2",
+  "description": "eslint config",
+  "main": ".eslintrc.js",
+  "repository": "https://github.com/yuukajs/eslint-config",
+  "author": "Lisk",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "8"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-n": "^17.10.3",
+    "eslint-plugin-promise": "^7.1.0",
+    "@stylistic/eslint-plugin-ts": "^2.8.0"
+    }
+}
